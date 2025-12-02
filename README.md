@@ -60,4 +60,17 @@ DSなどの条件を変更すると実行不可になる可能性あり．
 # One Dim Interval Estimationの使い方(補正・拡張部分)
 ## IEBCa_log.R
 点推定されたm=10000本から区間推定値のBCa補正値を取得するプログラム．
-## そのほかは今後記入します。
+## collect_bca_coverage_grid.R
+ヒートマップ保存用プログラム．
+## compare_BCa_vs_others.R
+すでに出力したファイルを元に，BCaとPerc/tQuickの比較を行うための関数を記述したプログラム．
+強度関数の推定値と3種の補正手法の信頼区間を重ね書き（可視化）を行う．
+## run_PEIE_addons_generic.R
+WSE変換の一定条件下でのPerc/tQuick/BandSup等の補正結果を出力できる関数を記述したプログラム．
+## run_PEIE_full_auto_plus.R
+run_PEIE_addons_genericのフルオート拡張版を記述したプログラム．
+## gen_viz_full_auto_plus.R
+PIT系×Coverage系のマルチパネル図やサマリーのcsvファイルを取得するプログラム．
+## coverage.R
+compare_BCa_vs_othersの実行ファイル．
+## そのほかがあれば今後記入します。
